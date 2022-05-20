@@ -16,7 +16,7 @@ let timeClick = setInterval( () =>{
 time--;
 timing.innerHTML = time;
 
-if(time == 50){
+if(time == 0){
     yourScore.innerHTML = score;
     localStorage.setItem('lastestScore', score)
     clearInterval(timeClick)
